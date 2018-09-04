@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>AJAX example</title>
+  <link rel="stylesheet" href="./example.css">
+  <script type="text/javascript" src="./ajax.js"></script>
+</head>
+<body>
+  <h1>Bitcoin Quotation</h1>
+  <button id="updateButton" type="button" name="update">Update</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Last Update</th>
+        <th>Bitcoin</th>
+        <th>U$</th>
+        <th>R$</th>
+      </tr>
+    </thead>
+    <tbody id="quotes"></tbody>
+  </table>
+  <h2>Request status: <span id="status"></span></h2>
+  <ol id="statusHistory"></ol>
+</body>
+</html>
